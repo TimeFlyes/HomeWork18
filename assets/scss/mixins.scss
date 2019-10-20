@@ -1,0 +1,82 @@
+@mixin background_prop() {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@mixin container {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin text_margin() {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@mixin list_style() {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@mixin display_flex_center() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin sectionTitle() {
+	margin-bottom: $marginTitle;
+	font-size: $fsXL;	
+	text-align: center;
+	color: $titileColor;
+}
+
+@mixin service_text() {
+	font-size: $fsM;	
+	text-align: center;
+	line-height: 30px;
+	color: $text_border_Color;
+}
+
+@mixin service_title_box() {
+	font-size: $fsL;	
+	text-align: center;
+	color: $titileColor;
+	font-weight: $font_weight;
+}
+
+@mixin service_text_box() {
+	font-size: $fsXS;	
+	text-align: center;
+	color: $text_border_Color;
+	line-height: 30px;
+}
+
+@mixin before() {
+	content: '';
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 18px;
+	width: 40px;
+	height: 32px;		
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@mixin button() {
+	margin: 0;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+}
+
+@mixin footerTitle() {
+	color: $mainColor;
+	font-size: $fsM;
+	font-weight: normal;
+}
